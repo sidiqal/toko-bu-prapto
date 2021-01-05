@@ -1,0 +1,129 @@
+/* Base */
+img {
+  width: 100%;
+}
+
+h2 {
+  animation: fadein 2s;
+}
+
+h2 ~ a {
+  animation: fadein 2.2s;
+}
+
+h5 {
+  animation: fadein 2s;
+}
+
+h5 ~ p {
+  animation: fadein 2.2s;
+}
+
+.pad {
+  padding: 120px 0px 120px 0px;
+}
+
+.pad-fo {
+  padding: 30px 0px 30px 0px;
+}
+
+.abu {
+  background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 3.5rem;
+  animation: fadein 1s;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+}
+
+.content-hero {
+  font-size: 1.3rem;
+  animation: fadein 1.3s;
+}
+
+.content-hero ~ .btn {
+  animation: fadein 1.5s;
+}
+
+.content {
+  font-size: 1.2rem;
+}
+
+/* Navbar Animation */
+.navbar-brand {
+  animation: fadein 0.8s;
+}
+
+.navbar-toggler {
+  animation: fadein 0.8s;
+}
+
+.navbar-nav {
+  animation: fadein 0.8s;
+}
+
+/* Table */
+#table {
+  min-height: 80vh;
+}
+
+.table {
+  animation: fadein 1.5s;
+}
+
+/* img Animation */
+.img-kanan {
+  animation: fadein 1.5s;
+}
+
+.form-body {
+  animation: fadein 2.2s;
+}
+
+.content {
+  animation: fadein 1.2s;
+}
+
+/* Hero */
+#hero {
+  background-image: url("../img/SnackVariety_Lead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0px 150px 0px;
+}
+
+/* Footer */
+#footer {
+  background-color: #007bff;
+}
+
+/* Fade */
+@keyframes fadein {
+  from {
+    transform: translateY(-10rem);
+  }
+
+  to {
+    transform: translateY(0rem);
+  }
+}
+
+/* Responsive Breakpoint */
+@media screen and (max-width: 576px) {
+  .balik {
+    flex-direction: column-reverse;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+}
